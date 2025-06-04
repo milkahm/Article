@@ -1,6 +1,6 @@
 from typing import List, Dict, Optional
 import sqlite3
-from lib.db.connection import get_connection  # Adjust the import based on your project structure
+from code_challenge.lib.db.connection import get_connection  # Adjust the import based on your project structure
 class Magazine:
     def __init__(self, name: str, category: str, id: Optional[int] = None):
         self.id = id

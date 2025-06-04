@@ -1,4 +1,4 @@
-from lib.db.connection import get_connection
+from code_challenge.lib.db.connection import get_connection
 from typing import Optional, List, Dict
 import sqlite3
 
